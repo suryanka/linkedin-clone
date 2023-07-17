@@ -1,0 +1,142 @@
+.MessageSender {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.MessageSender__Top {
+    display: flex;
+    flex: 1;
+    height: max-content;
+    align-items: center;
+
+}
+
+.MessageSender__Top>form {
+    flex: 1;
+    display: flex;
+    outline-width: 0;
+}
+
+.MessageSender__Top>form>input:hover {
+    background-color: #00000014;
+    ;
+}
+
+.MessageSender__Top>form>input {
+    /* width:100%; */
+    flex: 1;
+    margin: 0 10px;
+    padding: 5px 20px;
+    border-radius: 999px;
+    outline-width: 0;
+    border: 1px solid lightgray
+}
+
+.MessageSender__TopAvatar {}
+
+.MessageSender__Bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MessageSender__option {
+    display: flex;
+    align-items: center;
+    margin: 15px 5px;
+}
+
+.MessageSender__option>.MuiSvgIcon-root {
+    margin-right: 5px;
+}
+
+.MessageSender__option>h3 {
+    font-size: 100%;
+    font-weight: 600;
+    color: #0009;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-dialog {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.modal-header {
+    padding: 0 10px;
+}
+
+.modal-header>button {
+    border: unset;
+    background-color: unset;
+    font-size: 1.6rem;
+}
+
+.modal-header>button:hover {
+    background-color: #00000014;
+    border-radius: 50%;
+}
+
+.modal-footer>button {
+    padding: 2px 15px;
+    color: #0a66c2;
+    font-weight: 600;
+    background-color: white;
+    border-color: unset;
+    border-color: #0a66c2;
+    border-radius: 15px;
+}
+
+.modal-footer>button:hover {
+    border-width: 3px;
+    background-color: #aef0fa;
+}
+
+.modal-title {
+    font-weight: 400;
+}
+
+.modal-body> input {
+    color: #0a66c2;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    display: flex;
+}
+.modal-header{
+    display: flex;
+    flex: 0.2;
+}
+.modal-body{
+    flex: 0.6;
+}
+
+.modal-footer{
+    display: flex;
+    flex: 0.2;
+}
+
+.MessageSender__Top > form > button{
+    display: none;
+}

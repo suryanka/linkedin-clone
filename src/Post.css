@@ -1,0 +1,132 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.post__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.post__headerLeft{
+    display: flex;
+    /* align-items: center; */
+    padding: 5px;
+}
+.post__headerAvatar{
+    margin-top: 13px;
+}
+.post__headerInfo{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 10px;
+}
+
+.post__headerInfoFirst{
+    display: flex;
+    align-items: center;
+}
+
+.post__headerInfoFirst > h3{
+    font-weight: unset;
+    font-weight: 600;
+    font-size: medium;
+    margin-right: 2px;
+}
+
+.post__headerInfoFirst > h3:hover{
+    text-decoration: underline;
+}
+
+.post__headerInfoFirst > h4 {
+    color:#0009;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.post__headerInfo> h3 {
+    /* display: block; */
+    font-size: 10px;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    /* margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    color: #0009;
+    font-weight: 400;
+}
+
+.post__headerInfo> h4{
+    font-size: 10px;
+    color: #0009;
+    font-weight: 400;
+}
+
+.post__header > Button{
+    color: #0a66c2;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.post__header > Button :hover{
+    background-color: #eef3f8;;
+}
+
+.post__body > img{
+    width: 100%;
+}
+
+.post__footer{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post__option{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    color:#0009;
+}
+
+.post__option:hover{
+    background-color: #00000014;
+}
+
+.post__option > h3{
+    margin-left: 4px;
+}
+
+.post > hr{
+    border: 0;
+    display: block;
+    height: 1px;
+    margin: 1rem 0 24px;
+    padding: 0;
+    border-color: rgba(0,0,0,.15);
+    border-top: 1px solid rgba(0,0,0,.15);
+}
+
+.post__option > h3{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.post__send{
+    margin-right: 5px;
+}
+
